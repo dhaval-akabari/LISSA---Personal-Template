@@ -1,0 +1,179 @@
+/*-----------------------------------------------------------
+* Template Name    : Melissa | Responsive Bootstrap 5 Personal Template
+* Author           : Upbeatinfotech
+* Version          : 1.0
+* Created          : July 2021
+* File Description : Responsive css file of the template
+*------------------------------------------------------------
+*/
+
+/*===========================
+        RESPONSIVE
+=============================*/
+
+@media (min-width: 200px) and (max-width: 768px) {
+	.custom-nav {
+		background-color: #fff !important;
+		padding: 10px 0px !important;
+	}
+	.custom-nav .navbar-toggler {
+		color: #000;
+		font-size: 23px !important;
+		border: none;
+	}
+	.custom-nav .logo .logo-dark {
+		display: inline-block;
+	}
+	.custom-nav .navbar-nav li a {
+		color: rgba(0, 0, 0, 0.6) !important;
+	}
+	.custom-nav .logo .logo-light {
+		display: none;
+	}
+	.h-100vh {
+		height: auto;
+		padding: 120px 0 150px;
+	}
+	.header-bg-img {
+		-webkit-clip-path: none;
+		        clip-path: none;
+		padding: 120px 0 150px;
+		height: 500px;
+	}
+	.wave-home.h-100vh {
+		height: auto;
+		padding: 120px 0 190px;
+	}
+	.custom-nav .navbar-nav li a {
+		margin: 0 0px;
+		line-height: 15px;
+	}
+	.header-name {
+		font-size: 38px;
+	}
+	.clip-home {
+		-webkit-clip-path: none;
+		        clip-path: none;
+	}
+	.header-default .custom-nav{
+		background-color: #000 !important;
+	}
+	.header-default .navbar-brand span{
+		color: #fff !important;
+	}
+	.header-default .custom-nav .navbar-toggler{
+		color: #fff !important;
+	}
+	.header-bg-dark .navbar-brand span{
+		color: #fff !important;
+	}
+	.header-bg-dark .custom-nav .navbar-toggler{
+		color: #fff !important;
+	}
+}
+
+@media (max-width: 2560px) {
+	.home-bg .curv-img {
+		bottom: -5px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px !important;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	/* sidebar */
+	body.scroll-hide {
+		overflow: hidden;
+	}
+	.custom-nav .navbar-collapse {
+		display: block !important;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: -260px;
+		background-color: #fff;
+		width: 100%;
+		max-width: 250px;
+		padding: 11px 0;
+		z-index: 33;
+		border-right: 1px solid rgba(225, 225, 225, 0.2);
+		height: auto !important;
+		overflow-y: auto;
+		-webkit-transition: all 0.3s linear;
+		-o-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+	}
+	.custom-nav .navbar-collapse.show {
+		right: 0;
+	}
+	.sidebar-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(255, 255, 255, 0.5);
+		-webkit-filter: blur(1px);
+		filter: blur(1px);
+		filter: invert(100%);
+		-webkit-filter: invert(100%);
+		-webkit-animation: fadeIn ease .3s;
+		animation: fadeIn ease .3s;
+		z-index: 1;
+	}
+	/* sidebar end */
+	.custom-nav .navbar-nav li a {
+		color: #000 !important;
+	}
+	.nav-item {
+		border-bottom: 1px solid #928e8e;
+		padding: 5px 15px;
+	}
+	.skill-progress {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.navbar-brand span{
+		color: #000;
+	}
+	.navbar-brand span{
+		color: #000;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	#color-switcher {
+		display: none;
+	}
+	.section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.custom-nav .navbar-toggler {
+		font-size: 23px;
+	}
+	/* header-white*/
+	.home-slider .owl-prev{
+		display: none;
+	}
+	.home-slider .owl-next{
+		display: none;
+	}
+	/* header-dark*/
+	.home-slider .owl-next{
+		display: none;
+	}
+	.home-slider .owl-prev{
+		display: none;
+	}
+}
